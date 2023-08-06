@@ -6,6 +6,6 @@ results = model.train(
     batch=8,
     device="cuda",  # Configura para utilizar a GPU
     data="data.yaml",
-    epochs=7,
-    imgsz=120,
+    epochs=100,
+    imgsz=512,
 )

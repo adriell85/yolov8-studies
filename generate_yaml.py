@@ -5,7 +5,7 @@ train: train/images
 val: val/images
 test: test/images
 
-names: ['circle']
+names: ['AVC']
     '''
 
 with Path('data.yaml').open('w') as f:

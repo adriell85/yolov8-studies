@@ -1,8 +1,8 @@
 from ultralytics import YOLO
 import torchvision.transforms as T
 
-my_model = YOLO('runs/segment/train10/weights/best.pt') # alimenta a Yolo com o peso
-results = list(my_model('datasets/test/images/img_5.png', conf=0.128)) # aplica em cima de uma nova imagem
+my_model = YOLO('runs/segment/train15/weights/best.pt') # alimenta a Yolo com o peso
+results = list(my_model('datasets/test/images/img_1.jpg', conf=0.128)) # aplica em cima de uma nova imagem
 result = results[0] # visualização de resultados
 
 # result.masks.segments # Isso retorna o polígono delimitador do objeto, semelhante ao formato que passamos para os dados rotulados.

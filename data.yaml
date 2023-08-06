@@ -1,7 +1,7 @@
 
-train: datasets/train/images
-val: datasets/val/images
-test: datasets/test/images
+train: train/images
+val: val/images
+test: test/images
 
-names: ['circle']
+names: ['AVC']
     
